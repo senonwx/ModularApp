@@ -12,11 +12,11 @@ import com.senon.lib_common.bean.Login;
 /**
  * app 模块主页面
  */
-@Route(path = ConstantLoginArouter.PATH_APP_MAINACTIVITY)
+@Route(path = ConstantLoginArouter.PATH_ONE_MAINACTIVITY)
 public class MainActivity extends AppCompatActivity {
 
     @Autowired
-    Login msg;
+    String msg;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +24,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ARouter.getInstance().inject(this);
 
-        ((TextView)findViewById(R.id.main_tv)).setText("这是app模块 主页面MainActivity"+"\n携带参数"+msg.toString());
+        ((TextView)findViewById(R.id.main_tv)).setText("这是one模块 主页面MainActivity"+"\n携带参数: "+msg);
     }
 }

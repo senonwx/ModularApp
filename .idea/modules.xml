@@ -3,9 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ModularApp.iml" filepath="$PROJECT_DIR$/ModularApp.iml" />
+      <module fileurl="file://F:\MyGitHubFiles\ModularApp\ModularApp\ModularApp.iml" filepath="F:\MyGitHubFiles\ModularApp\ModularApp\ModularApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://F:\MyGitHubFiles\ModularApp\ModularApp\app\app.iml" filepath="F:\MyGitHubFiles\ModularApp\ModularApp\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib_common/lib_common.iml" filepath="$PROJECT_DIR$/lib_common/lib_common.iml" />
+      <module fileurl="file://F:\MyGitHubFiles\ModularApp\ModularApp\lib_common\lib_common.iml" filepath="F:\MyGitHubFiles\ModularApp\ModularApp\lib_common\lib_common.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib_opensource/lib_opensource.iml" filepath="$PROJECT_DIR$/lib_opensource/lib_opensource.iml" />
+      <module fileurl="file://F:\MyGitHubFiles\ModularApp\ModularApp\lib_opensource\lib_opensource.iml" filepath="F:\MyGitHubFiles\ModularApp\ModularApp\lib_opensource\lib_opensource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_one/module_one.iml" filepath="$PROJECT_DIR$/module_one/module_one.iml" />
     </modules>
   </component>
 </project>

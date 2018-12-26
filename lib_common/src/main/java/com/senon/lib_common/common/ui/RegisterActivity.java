@@ -70,9 +70,12 @@ public class RegisterActivity extends BaseActivity<LoginContract.View, LoginCont
         //登录成功时
         //保存参数...
 
-        //跳转到目标页
         if(targetUrl != null){
-            ARouter.getInstance().build(targetUrl).navigation();
+            //跳转到目标页
+            ARouter.getInstance()
+                    .build(targetUrl)
+                    .withString("msg","注册成功")
+                    .navigation();
         }
 
         finish();

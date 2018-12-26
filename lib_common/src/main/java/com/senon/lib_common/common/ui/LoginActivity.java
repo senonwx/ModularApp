@@ -55,6 +55,7 @@ public class LoginActivity extends BaseActivity<LoginContract.View, LoginContrac
         password_edt = findViewById(R.id.password_edt);
         register_tv = findViewById(R.id.register_tv);
 
+        account_edt.setSelection(account_edt.getText().toString().length());
         register_tv.getPaint().setFlags(Paint.UNDERLINE_TEXT_FLAG);
 
     }
@@ -68,7 +69,7 @@ public class LoginActivity extends BaseActivity<LoginContract.View, LoginContrac
             //跳转到目标页
             ARouter.getInstance()
                     .build(targetUrl)
-                    .withSerializable("loginData",data.getData())
+                    .withString("msg","登录成功")
                     .navigation();
         }
 
@@ -101,7 +102,6 @@ public class LoginActivity extends BaseActivity<LoginContract.View, LoginContrac
             ARouter.getInstance().build(ConstantArouter.PATH_COMMON_REGISTERACTIVITY)
                     .withString("targetUrl",targetUrl)
                     .navigation();
-
         }
     }
 
