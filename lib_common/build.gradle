@@ -37,4 +37,5 @@ dependencies {
 
     api project(':lib_opensource')
     annotationProcessor rootProject.ext.dependencies["router-compiler"]
+
 }

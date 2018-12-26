@@ -3,4 +3,13 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="blue_2bbbe6">#2BBBE6</color>
+    <color name="transparent_bg">#00ffffff</color>
+
+
+    <color name="common_login_bg">#55bfb9b9</color>
+    <color name="common_white">#ffffff</color>
+
+
+
 </resources>

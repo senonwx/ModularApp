@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_login_bg"
+    android:orientation="vertical">
+
+    <EditText
+        android:background="@color/common_white"
+        android:layout_marginTop="@dimen/mm400"
+        android:layout_marginLeft="@dimen/mm85"
+        android:layout_marginRight="@dimen/mm85"
+        android:text="12341234"
+        android:maxLength="18"
+        android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ@!$#%^*_-."
+        android:id="@+id/account_edt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mm90"
+        android:hint="请输入账号"
+        android:paddingLeft="@dimen/mm50"
+        android:textSize="@dimen/mm32" />
+
+    <EditText
+        android:background="@color/common_white"
+        android:layout_marginTop="@dimen/mm36"
+        android:layout_marginLeft="@dimen/mm85"
+        android:layout_marginRight="@dimen/mm85"
+        android:text="123456"
+        android:maxLength="18"
+        android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ@!$#%^*_-."
+        android:id="@+id/password_edt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mm90"
+        android:hint="请输入密码"
+        android:paddingLeft="@dimen/mm50"
+        android:password="true"
+        android:textSize="@dimen/mm32" />
+
+    <Button
+        android:background="@color/colorAccent"
+        android:layout_marginLeft="@dimen/mm85"
+        android:layout_marginRight="@dimen/mm85"
+        android:layout_marginTop="@dimen/mm36"
+        android:onClick="onClick"
+        android:id="@+id/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mm90"
+        android:text="登录"
+        android:textSize="@dimen/mm36" />
+
+    <TextView
+        android:onClick="onClick"
+        android:id="@+id/register_tv"
+        android:layout_marginRight="@dimen/mm85"
+        android:layout_marginTop="@dimen/mm40"
+        android:layout_gravity="right"
+        android:textSize="@dimen/mm30"
+        android:text="还没有账号？去注册！"
+        android:padding="@dimen/mm5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
