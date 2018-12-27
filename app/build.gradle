@@ -28,8 +28,8 @@ dependencies {
     if (isBuildModule.toBoolean()) {
         implementation project(':lib_common')
     } else {
-//        implementation project(':module_home')
-//        implementation project(':module_life')
+        implementation project(':module_one')
+        implementation project(':module_two')
     }
 
     annotationProcessor rootProject.ext.dependencies["butterknife-compiler"]

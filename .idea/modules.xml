@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/lib_opensource/lib_opensource.iml" filepath="$PROJECT_DIR$/lib_opensource/lib_opensource.iml" />
       <module fileurl="file://F:\MyGitHubFiles\ModularApp\ModularApp\lib_opensource\lib_opensource.iml" filepath="F:\MyGitHubFiles\ModularApp\ModularApp\lib_opensource\lib_opensource.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_one/module_one.iml" filepath="$PROJECT_DIR$/module_one/module_one.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_two/module_two.iml" filepath="$PROJECT_DIR$/module_two/module_two.iml" />
     </modules>
   </component>
 </project>
