@@ -40,6 +40,7 @@ project.ext {
             "adapter-rxjava"              : "com.squareup.retrofit2:adapter-rxjava2:${retrofitVersion}",
             "retrofit-converter"          : "com.squareup.retrofit2:converter-scalars:${retrofitVersion}",
             "retrofit-converter-gson"     : "com.squareup.retrofit2:converter-gson:${retrofitVersion}",
+            "gson"                        : "com.google.code.gson:gson:2.8.5",
 
             //dagger
             "dagger"                      : "com.google.dagger:dagger:${daggerVersion}",

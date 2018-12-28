@@ -1,6 +1,5 @@
 package com.senon.lib_common.bean;
 
-import java.io.Serializable;
 import java.util.List;
 
 /**

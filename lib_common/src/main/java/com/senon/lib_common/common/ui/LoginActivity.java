@@ -69,7 +69,7 @@ public class LoginActivity extends BaseActivity<LoginContract.View, LoginContrac
             //跳转到目标页
             ARouter.getInstance()
                     .build(targetUrl)
-                    .withString("msg","登录成功")
+                    .withObject("data",data.getData())
                     .navigation();
         }
 
