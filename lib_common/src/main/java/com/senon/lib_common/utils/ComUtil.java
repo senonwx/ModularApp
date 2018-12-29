@@ -18,6 +18,11 @@ import java.util.regex.Pattern;
  */
 public class ComUtil {
 
+    /**
+     * 改变状态栏字体颜色
+      * @param context
+     * @param isBlack true黑色  false白色
+     */
     public static void changeStatusBarTextColor(Context context,boolean isBlack) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             if (isBlack) {

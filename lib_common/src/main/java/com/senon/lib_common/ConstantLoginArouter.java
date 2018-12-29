@@ -5,6 +5,7 @@ import java.util.Map;
 
 /**
  * 存储各个主模块首页的路由地址：判断是哪个模块登录的
+ * 当然也可以不用单独从ConstantArouter分离出这些主页地址，看个人喜好
  */
 public class ConstantLoginArouter {
 
