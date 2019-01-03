@@ -26,8 +26,13 @@ public class MainActivity extends AppCompatActivity {
         StatusBarUtils.with(this).init();//沉浸式
         setContentView(R.layout.activity_main);
         ComUtil.changeStatusBarTextColor(this,true);
+
         ARouter.getInstance().inject(this);
 
-        ((TextView)findViewById(R.id.main_tv)).setText("这是app模块 主页面MainActivity"+"\n携带参数: "+data.toString());
+        if(data == null){
+            ((TextView)findViewById(R.id.main_tv)).setText("这是app模块 主页面MainActivity"+"\n没有携带参数: ");
+        }else{
+            ((TextView)findViewById(R.id.main_tv)).setText("这是app模块 主页面MainActivity"+"\n携带参数: "+data.toString());
+        }
     }
 }

@@ -14,7 +14,7 @@
         android:onClick="toA"
         android:background="#e4dada"
         android:textSize="@dimen/mm30"
-        android:text="跳转到登录"
+        android:text="先登录-->再目标页面"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <TextView
@@ -25,7 +25,7 @@
         android:layout_marginTop="@dimen/mm50"
         android:background="#e4dada"
         android:padding="@dimen/mm20"
-        android:text="不登录直接进入"
+        android:text="不登录-->直接进入目标页"
         android:layout_width="@dimen/mm500"
         android:layout_height="@dimen/mm200" />
 </LinearLayout>

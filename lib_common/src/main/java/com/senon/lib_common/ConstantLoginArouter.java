@@ -12,12 +12,12 @@ public class ConstantLoginArouter {
     public static Map<String, String> activityRouterMap = new HashMap<>();
 
     //app主页
-    public static final String PATH_APP_MAINACTIVITY = "/app/MainActivity";
+    public static final String PATH_APP_MAINACTIVITY = "/app/AppMainActivity";
 
     //one主页
     public static final String PATH_ONE_MAINACTIVITY = "/one/OneMainActivity";
     //two首页
-    public static final String PATH_TWO_MAINACTIVITY = "/life/TwoMainActivity";
+    public static final String PATH_TWO_MAINACTIVITY = "/two/TwoMainActivity";
 
     //登录 注册
     public static final String PATH_COMMON_LOGINACTIVITY = "/lib_common/LoginActivity";
