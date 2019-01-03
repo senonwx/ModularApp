@@ -2,14 +2,11 @@ package com.senon.modularapp;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.ListView;
 import android.widget.PopupWindow;
-
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.senon.lib_common.ConstantArouter;
@@ -18,9 +15,7 @@ import com.senon.lib_common.adapter.CommonAdapter;
 import com.senon.lib_common.adapter.CommonHolder;
 import com.senon.lib_common.utils.ComUtil;
 import com.senon.lib_common.utils.StatusBarUtils;
-
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Map;
 
 /**
