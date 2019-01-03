@@ -92,8 +92,6 @@ public class TestActivity extends AppCompatActivity {
         //点击外部收起
         pop.setOutsideTouchable(true);
 
-        int[] location = new int[2];
-        v.getLocationOnScreen(location);
         pop.showAsDropDown(v);
 
     }
