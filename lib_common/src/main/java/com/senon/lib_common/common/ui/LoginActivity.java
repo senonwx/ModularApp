@@ -50,6 +50,7 @@ public class LoginActivity extends BaseActivity<LoginContract.View, LoginContrac
 
     @Override
     public void init() {
+        ComUtil.changeStatusBarTextColor(this,true);
 
         account_edt = findViewById(R.id.account_edt);
         password_edt = findViewById(R.id.password_edt);

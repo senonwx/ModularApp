@@ -49,6 +49,8 @@ public class RegisterActivity extends BaseActivity<LoginContract.View, LoginCont
 
     @Override
     public void init() {
+        ComUtil.changeStatusBarTextColor(this,true);
+
         if (targetUrl == null) {
             //默认跳转到MainActivity
             targetUrl = ConstantLoginArouter.PATH_APP_MAINACTIVITY;

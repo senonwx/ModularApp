@@ -16,6 +16,7 @@ import com.senon.lib_common.ConstantArouter;
 import com.senon.lib_common.ConstantLoginArouter;
 import com.senon.lib_common.adapter.CommonAdapter;
 import com.senon.lib_common.adapter.CommonHolder;
+import com.senon.lib_common.utils.ComUtil;
 import com.senon.lib_common.utils.StatusBarUtils;
 
 import java.util.ArrayList;
@@ -33,6 +34,7 @@ public class TestActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         StatusBarUtils.with(this).init();
         setContentView(R.layout.activity_test);
+        ComUtil.changeStatusBarTextColor(this,true);
 
     }
 
