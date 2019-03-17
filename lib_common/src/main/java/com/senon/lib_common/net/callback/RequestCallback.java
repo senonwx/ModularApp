@@ -1,10 +1,8 @@
 package com.senon.lib_common.net.callback;
 
 import android.content.Context;
-
 import com.senon.lib_common.net.progress.ProgressCancelListener;
 import com.senon.lib_common.net.progress.ProgressDialogHandler;
-
 import io.reactivex.Observer;
 import io.reactivex.annotations.NonNull;
 import io.reactivex.disposables.Disposable;
@@ -71,6 +69,7 @@ public abstract class RequestCallback<T> implements Observer<T>,ProgressCancelLi
     public void onError(@NonNull Throwable e) {
         e.printStackTrace();
         dismissProgressDialog();
+        onCancelProgress();
 
         if (errorListener != null) {
             errorListener.handleError(e);
@@ -80,7 +79,7 @@ public abstract class RequestCallback<T> implements Observer<T>,ProgressCancelLi
     @Override
     public void onComplete() {
         dismissProgressDialog();
-
+        onCancelProgress();
     }
 
     @Override
