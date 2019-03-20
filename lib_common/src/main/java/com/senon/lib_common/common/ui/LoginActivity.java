@@ -30,7 +30,7 @@ public class LoginActivity extends BaseActivity<LoginContract.View, LoginContrac
     String targetUrl;
     private EditText account_edt,password_edt;
     private TextView register_tv;
-//这是branch2中修改的
+//这是branch1中修改的
 
     @Override
     public int getLayoutId() {
