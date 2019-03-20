@@ -32,6 +32,7 @@ public class LoginActivity extends BaseActivity<LoginContract.View, LoginContrac
     private TextView register_tv;
 //这是branch1中修改的
 
+
     @Override
     public int getLayoutId() {
         StatusBarUtils.with(this).init();
