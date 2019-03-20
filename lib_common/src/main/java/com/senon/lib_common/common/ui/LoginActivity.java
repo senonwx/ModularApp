@@ -33,6 +33,7 @@ public class LoginActivity extends BaseActivity<LoginContract.View, LoginContrac
 
 
 
+
     @Override
     public int getLayoutId() {
         StatusBarUtils.with(this).init();
