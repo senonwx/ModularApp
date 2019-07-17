@@ -29,6 +29,7 @@ public class ConstantArouter {
      */
     public static final String PATH_COMMON_REGISTERACTIVITY = "/lib_common/CommonRegisterActivity";
     public static final String PATH_COMMON_WEBVIEWCTIVITY = "/lib_common/CommonWebviewActivity";
+    public static final String PATH_MODELREQUESTACTIVITY = "/lib_common/ModelRequestActivity";
 
 
 }

@@ -102,5 +102,11 @@ public class TestActivity extends AppCompatActivity {
         list.add(0,"选择目标页面");
         return list;
     }
+
+    public void modelRequest(View view) {
+        ARouter.getInstance().build(ConstantArouter.PATH_MODELREQUESTACTIVITY)//指定跳到那个页面
+                .navigation();
+    }
+
 }
 

@@ -18,6 +18,7 @@
 
         <activity android:name=".common.ui.LoginActivity" android:screenOrientation="portrait"></activity>
         <activity android:name=".common.ui.RegisterActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name=".common.ui.ModelRequestActivity" android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>

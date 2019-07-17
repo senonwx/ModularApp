@@ -28,4 +28,16 @@
         android:text="不登录-->直接进入目标页"
         android:layout_width="@dimen/dp250"
         android:layout_height="@dimen/dp100" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="@dimen/dp18"
+        android:onClick="modelRequest"
+        android:layout_marginTop="@dimen/dp25"
+        android:background="#e4dada"
+        android:padding="@dimen/dp10"
+        android:text="使用model请求"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </LinearLayout>

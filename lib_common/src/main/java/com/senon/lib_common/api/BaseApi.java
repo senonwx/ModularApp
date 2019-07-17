@@ -1,8 +1,10 @@
 package com.senon.lib_common.api;
 
 import com.senon.lib_common.base.BaseResponse;
+import com.senon.lib_common.bean.Chapter;
 import com.senon.lib_common.bean.Login;
 
+import java.util.List;
 import java.util.Map;
 
 import io.reactivex.Observable;
@@ -29,5 +31,7 @@ public interface BaseApi {
     @FormUrlEncoded
     Observable<BaseResponse<Login>> register(@FieldMap Map<String, String> map);
 
-
+    //获取公众号文章
+    @GET("wxarticle/chapters/json  ")
+    Observable<BaseResponse<List<Chapter>>> getChapters();
 }
