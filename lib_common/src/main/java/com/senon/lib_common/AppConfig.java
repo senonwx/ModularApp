@@ -7,7 +7,7 @@ package com.senon.lib_common;
 public class AppConfig {
 
 
-    public static final String BASE_URL = "http://www.wanandroid.com/";
+    public static final String BASE_URL = "https://www.wanandroid.com/";
 
 
 }

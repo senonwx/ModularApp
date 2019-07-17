@@ -3,10 +3,10 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:id="@+id/item_tv"
-    android:textSize="@dimen/mm30"
+    android:textSize="@dimen/dp15"
     android:text="跳转至"
     android:gravity="center"
     android:background="@color/common_white"
     android:textColor="@color/common_black"
-    android:layout_height="@dimen/mm60"/>
+    android:layout_height="@dimen/dp30"/>
 

@@ -9,7 +9,7 @@
     <TextView
         android:id="@+id/main_tv"
         android:gravity="center"
-        android:textSize="@dimen/mm40"
+        android:textSize="@dimen/dp20"
         android:layout_centerInParent="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

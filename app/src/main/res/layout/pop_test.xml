@@ -5,6 +5,6 @@
 
     <ListView
         android:id="@+id/pop_lv"
-        android:layout_width="@dimen/mm400"
+        android:layout_width="@dimen/dp200"
         android:layout_height="match_parent"/>
 </LinearLayout>
