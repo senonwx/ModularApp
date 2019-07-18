@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * model
+ * model层
  */
 public class ModelRequestMod implements ModelRequestContract.Model {
 
@@ -25,7 +25,6 @@ public class ModelRequestMod implements ModelRequestContract.Model {
     public void getData(LifecycleTransformer<BaseResponse<List<Chapter>>> transformer, Context context,
                         boolean isDialog, boolean cancelable, final BaseModelCallBack callBack){
         ServerUtils.getCommonApi().getChapters()
-                .retryWhen(new RetryWithDelay(3,2))
                 .compose(transformer)
                 .compose(RxUtils.<BaseResponse<List<Chapter>>>getSchedulerTransformer())
                 .subscribe(new RequestCallback<BaseResponse<List<Chapter>>>(context, RxErrorHandler.getInstance(),isDialog,cancelable) {
@@ -42,6 +41,8 @@ public class ModelRequestMod implements ModelRequestContract.Model {
                 });
     }
 
+
+    //数据库读取等操作
 
 
 }

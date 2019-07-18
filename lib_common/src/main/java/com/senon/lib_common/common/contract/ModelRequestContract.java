@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * ModelRequestContract
+ * 统一管理 v p m接口
  */
 public interface ModelRequestContract {
 
@@ -41,6 +41,6 @@ public interface ModelRequestContract {
     interface Model{
         void getData(LifecycleTransformer<BaseResponse<List<Chapter>>> transformer, Context context,
                      boolean isDialog, boolean cancelable, BaseModelCallBack callBack);
-
     }
+
 }

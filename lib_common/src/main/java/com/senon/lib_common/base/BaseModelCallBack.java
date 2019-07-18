@@ -7,4 +7,7 @@ public interface BaseModelCallBack<T> {
 
     void onError(Throwable e);
 
+    //数据库读取进度
+//    void onProgress(int total,int current,float progress);
+
 }

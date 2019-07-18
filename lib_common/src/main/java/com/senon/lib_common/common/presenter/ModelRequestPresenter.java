@@ -15,7 +15,7 @@ import java.util.HashMap;
 import java.util.List;
 
 /**
- * 结合model p
+ * 结合model使用的 p层
  */
 public class ModelRequestPresenter extends ModelRequestContract.Presenter {
 
@@ -30,11 +30,16 @@ public class ModelRequestPresenter extends ModelRequestContract.Presenter {
 
     @Override
     public void getData(boolean isDialog, boolean cancelable) {
+        /**
+         * 为什么rx绑定生命周期不放在model层，
+         * 因为我们不希望m层拥有直接操作v层的权利 隔离v与m层
+         * 只希望m层与p层交互
+         */
         model.getData(RxUtils.<BaseResponse<List<Chapter>>>bindToLifecycle(getView()), context, isDialog, cancelable,
                 new BaseModelCallBack() {
                     @Override
                     public void onNext(Object o) {
-                        getView().getDataResult((BaseResponse) o);
+                        getView().getDataResult((BaseResponse<List<Chapter>>) o);
                     }
 
                     @Override
